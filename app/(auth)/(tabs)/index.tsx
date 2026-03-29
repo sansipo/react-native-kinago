@@ -31,7 +31,7 @@ export default function App() {
         Go to Sign up
       </Link>
 
-      <Link href="../subscriptions/spotify">Spotify Subsciption</Link>
+      <Link href="/subscriptions/spotify">Spotify Subsciption</Link>
       <Link
         href={{ pathname: "/subscriptions/[id]", params: { id: "claude" } }}
       >
